@@ -1,4 +1,6 @@
 VER=4.9.1
-SRCS="git::commit=tags/v$VER::https://github.com/AOSC-Dev/autobuild4"
+REL=1
+COMMIT_ID=9622ee44beb57a95c40dc9f3101c7d190d108415
+SRCS="git::commit=$COMMIT_ID::https://github.com/AirFortressIlikara/autobuild4"
 CHKSUMS="SKIP"
 CHKUPDATE="anitya::id=372345"
